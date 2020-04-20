@@ -21,3 +21,7 @@ interfaces:
 - name: M-GigabitEthernet0/0/0
   type: 1000base-t
   mgmt_only: true
+- name: FortyGigE1/0/1
+  type: 40gbase-x-qsfpp
+- name: FortyGigE1/0/2
+  type: 40gbase-x-qsfpp
