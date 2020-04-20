@@ -1,0 +1,23 @@
+manufacturer: Hewlett Packard Enterprise
+model: FlexFabric 5930 4 Slot
+slug: ff-5930-4-slot
+part_number: JH179A
+u_height: 2
+subdevice_role: parent
+is_full_depth: true
+console-ports:
+- name: Console
+  type: rj-45
+power-ports:
+- name: PS1
+  type: iec-60320-c14
+  maximum_draw: 888
+  allocated_draw: 139
+- name: PS2
+  type: iec-60320-c14
+  maximum_draw: 888
+  allocated_draw: 139
+interfaces:
+- name: M-GigabitEthernet0/0/0
+  type: 1000base-t
+  mgmt_only: true
